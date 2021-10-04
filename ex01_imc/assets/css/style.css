@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+:root{
+  --primary-color: rgb(17, 86, 102);
+  --primary-color-darker: rgb(9, 48, 56);
+  --pcb: #262626  ;
+}
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+body{
+  margin: 0;auto
+  padding: 2;
+  background: var(--primary-color);
+  /*
+  fundo listrado:
+  background-image:
+    repeating-linear-gradient(
+      -45deg,
+      #000000 0px,
+      #000000 10px,
+      #0D7CB9 10px,
+      #0D7CB9 20px
+
+      );
+  */
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.3em;
+}
+.container{
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+form input, form label, form button {
+  margin-bottom: 10px;
+  display: block;
+  width: 100%
+}
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+}
+
+form input:focus {
+  outline: 1px solid var(--primary-color);
+}
+form button {
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+}
+form button:hover {
+  background: var(--primary-color-darker)
+}
+.sub_sec{
+  display: block;
+  font-size: 15px;
+  padding-top: 10px;
+}
+.subtit {
+  font-size: 25px;
+}
+.labs{
+  font-size: 15px;
+  padding-top: 10px;
+}
+.bt-primary{
+  background: var(--primary-color);
+  color: #fff;
+}
+/*tonalidades para os tipos de IMC*/
+.inp-abaixo-peso{
+  background: #ffff00;
+  color: var(--pcb);
+  text-align: center;
+
+}
+.inp-ideal{
+  background: #2e8b57;
+  color: #fff;
+  text-align: center;
+}
+.inp-sobrepeso{
+  background: #d07684;
+  color: #fff;
+  text-align: center;
+}
+.inp-obesidade1{
+  background: #e4605e;
+  color: #fff;
+  text-align: center;
+}
+.inp-obesidade2{
+  background: #f34336;
+  color: #fff;
+  text-align: center;
+}
+.inp-obesidade3{
+  background: #f00;
+  color: #fff;
+  text-align: center;
+}

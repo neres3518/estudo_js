@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ver documento</title>
+  </head>
+  <style media="screen">
+    body{
+      text-align: center;
+    }
+    .docs{
+      text-align: center;
+      border-style: solid;
+      border-radius: 50px;
+    }
+  </style>
+  <body>
+    <div class="docs">
+      <h3>Documento:</h3>
+      <div class="doc">
+
+      </div>
+    </div>
+  </body>
+</html>
+<script type="text/javascript">
+  let win = window.location.href
+  let doc = win.indexOf('doc=')
+  doc = doc + 4
+  let doc_url = win.substring( doc)
+  document.querySelector('.doc').innerHTML = `<img src="${doc_url}" width="200px" height="200px" >`;
+</script>

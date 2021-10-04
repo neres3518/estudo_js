@@ -1,0 +1,5 @@
+de elementos pai para elementos filhos seria
+
+window >> document >> html
+
+o dom é a interface que permite manipular os elementos

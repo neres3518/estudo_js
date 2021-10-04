@@ -1,0 +1,5 @@
+resumo da aula:
+o for in serve para percorrer um objeto ou um array, eu vou usar só esse quando eu precisas
+usar algum for, pois com o for tradicional acho q nao daria para percorrer um objeto.
+
+visualize o código para entender melhor.

@@ -1,0 +1,3 @@
+o for classico geralmente é usado para array e string
+o for in para string arays ou objetos
+for of so para array ou string
