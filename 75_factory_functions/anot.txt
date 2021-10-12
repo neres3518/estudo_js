@@ -1,0 +1,5 @@
+- o getter serve para fazer um
+método dentro de um objeto virar um atributo
+
+- ja quando usamos o getter e o setter o objeto vira um atributo
+e modifica os valores dos objetos dentro do retorno
